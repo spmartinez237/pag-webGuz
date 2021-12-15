@@ -1,0 +1,72 @@
+nav ul {
+
+
+    padding: 0;
+    margin: 0;
+    list-style: none;   
+}
+
+   header{ 
+    width: 100%;
+     background: #000000; 
+     position: ; 
+     top: 50; height: 60px; 
+     opacity:.9;
+     
+}
+
+
+
+
+nav li {
+    float: left;
+}
+
+
+
+body{
+    background: #666666;
+} 
+
+ 
+
+.mainmenubtn {
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 10vh;
+    background-color: #6E4869;
+}
+nav li:hover > ul {
+                display:block;
+}
+
+
+.boton{
+    background-color: #456789;
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: 18.5px;
+
+}
+
+.links a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 13px;
+}
+
+
+
